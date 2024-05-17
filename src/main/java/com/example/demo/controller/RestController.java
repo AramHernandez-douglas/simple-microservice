@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @org.springframework.web.bind.annotation.RestController
 public class RestController {
-    @GetMapping("/")
+    @GetMapping("/dimelindura")
     @ResponseBody
     public ResponseEntity dimeLindura(){
         return new ResponseEntity<>("Hola hermoso 😍!", HttpStatus.OK);
