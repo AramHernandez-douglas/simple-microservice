@@ -11,6 +11,6 @@ public class RestController {
     @GetMapping("/")
     @ResponseBody
     public ResponseEntity dimeLindura(){
-        return new ResponseEntity<>("Hola hermoso 😍", HttpStatus.OK);
+        return new ResponseEntity<>("Hola hermoso 😍!", HttpStatus.OK);
     }
 }
